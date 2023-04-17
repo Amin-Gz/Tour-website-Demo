@@ -1,0 +1,485 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: verdana;
+    font-weight: 100;
+}
+
+.page1{
+width: 100vw;
+height: 100vh;
+background-image: url(pics/px8.jpg);
+background-repeat: no-repeat;
+background-size: 100vw , 100vh;
+}
+
+.page1 .edit{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.693);
+
+}
+.page1 .edit .introduce{
+    position: absolute;
+    color: whitesmoke;
+    width: 1000px;
+    height: 270px;
+    top: 130px;
+    left: calc(50vw - 500px);
+    /* background-color: cyan; */
+    text-align: center;
+    line-height: 1.5;
+}
+
+.page1 .edit .introduce h1 , .page2 .information h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.page1 .edit .introduce p{
+    font-size: 18px;
+}
+
+.page1 .edit .transport{
+    width: 1300px;
+    height: 150px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    top: 550px;
+    left: calc(50vw - 650px);
+}
+
+.page1 .edit .transport .links{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 140px;
+    /* background-color: rgb(15, 74, 54); */
+}
+
+.page1 .edit .transport .links a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+/* yadet nare ino dorost koni! ha, html ham css */
+/* .page1 .edit .transport .links a .fafixer{
+    font-size: 40px;
+
+} */
+.page1 .edit .backtotop{
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+}
+.page1 .edit .backtotop a{
+    color: rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 70px;
+    height: 100px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+.page1 .edit .backtotop a:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 1);
+}
+
+.page2{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    /* background-image: linear-gradient(135deg,#165e72,#568862); */
+    background-image: url(pics/px19.jpg);
+    background-size: cover;
+}
+/*chon axo badan khastam avaz konam , yekam roosh filter e dark oomadam bendazam 'div' dovomie roosh nemishest majboor shodam width o height e bishtari behesh bedam padding am bedam*/
+.page2 .edit{
+    width: 105%;
+    height: 107.3%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: -40px;
+    left: -20px;
+    padding: 50px 30px;
+}
+
+.page2 .edit .information{
+    width: 750px;
+    height: 300px;
+    margin: 20px 30px;
+    color: white;
+
+}
+
+.page2 .edit .information h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.page2 .edit .information p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.page2 .edit .information a{
+    text-decoration:none;
+    display: block;
+    float:right;
+    width: 180px;
+    height: 60px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    padding: 19px;
+}
+.page2 .edit .information a:hover{
+    background-color: rgba(104, 60, 32, 0.698);
+    color: antiquewhite;
+}
+
+.page2 .edit .imagesp2{
+    width: 760px;
+    height: 420px;
+    margin:50px 30px 0px 30px;
+}
+
+.page2 .edit .imagesp2 figure{
+    width: 210px;
+    height: 380px;
+    float: left;
+    margin-left: 60px;
+    position: relative;
+
+}
+.page2 .edit .imagesp2 figure:hover figcaption{
+        display: block;
+}
+.page2 .edit .imagesp2 figure:hover{
+    cursor: pointer;
+}
+.page2 .edit .imagesp2 figure#figfixer{
+    margin-left:0px;
+}
+
+ .page2 .edit .imagesp2 figure img{
+    width: 210px;
+    height: 210px;
+}
+
+.page2 .edit .imagesp2 figure figcaption{
+    width: 210px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    display: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.228);
+    /* border: 2px dotted black; */
+    padding: 20px 10px;
+
+}
+.page2 .edit .imagesp2 figure:hover .page2 .imagesp2 figure figcaption{
+    height: 170px;
+}
+
+
+.page2 .edit #fix1{
+    width: 450px;
+    height: 740px;
+    float: right;
+    margin:-780px 60px 0px 0px;
+    box-shadow: 0px 0px 10px rgb(78, 75, 75);
+    border-radius: 5px;
+}
+.page3{
+    width: 100vw;
+    height: 150vh;
+    background-color: burlywood;
+    background-image: url(pics/px9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 500px;
+    /* position: absolute; */
+}
+.page3 .edit{
+    width: 100%;
+    height: 59.8%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+.page3 .edit h2{
+    text-align: center;
+    margin: 100px;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 4px;
+}
+.page3 .imagesp3 {
+    width: 1200px;
+    height: 500px;
+    float: left;
+    position: relative;
+    top: 300px;
+    left: 130px;
+}
+.page3 .imagesp3 figure{
+    width: 250px;
+    height: 400px;
+    float: left;
+    margin-left: 60px;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    border: 2px solid rgb(90, 75, 55) ;
+}
+.page3 .imagesp3 figure#figfixer{
+    margin-left:0px;
+}
+
+ .page3 .imagesp3 figure img{
+    width: 210px;
+    height: 210px;
+    border: 1px solid black;
+}
+
+.page3 .imagesp3 figure figcaption{
+    width: 210px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(92, 179, 180); */
+    padding: 20px 10px;
+}
+.page3 table{
+    position: relative;
+    margin: 13000px auto;
+    top:240px;
+    /* chera margin ezafe mikonam eemal nemishe!? */
+    color: black;
+    width: 950px;
+    height: 450px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.page3 table thead tr th{
+    height: 50px;
+    /* border-bottom: 1px solid black; */
+}
+.page3 table td{
+    border-left: 1px solid black;
+}
+.page3 table th{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgba(104, 60, 32, 0.698);
+}
+.page3 table .edit3{
+    border-left: none;
+}
+.page3 #th1{
+    color: gold;
+}
+.page3 #th2{
+    color: silver;
+}
+.page3 #th3{
+    color: rosybrown;
+}
+.page3 table tbody tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.page3 table tbody tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.page4{
+    width: 100vw;
+    height: 100vh;
+    background-color:#44594b;
+    overflow: hidden;
+}
+.page4 img{
+    width: 300px;
+}
+.page4 .circle{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top:55px;
+    float: right;
+    position: relative;
+    right: 720px;
+    top: 20px;
+    z-index: 3;
+    color:#44594b;
+}
+.page4 .AboutTour{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    /* margin: 30px 40px; */
+    position: relative;
+    top: 30px;
+    left: 100px;
+    z-index: 3;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.page4 .AboutTour ul li{
+    list-style-type: none;
+    line-height: 1.9;
+    text-transform: capitalize;
+}
+.page4 .AboutTour ul li::before{
+    content: "✓.";
+    margin-right: 5px;
+}
+.page4 .AboutTourLeader{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    float: right;
+    position: relative;
+    left: 350px;
+    top: -170px;
+    z-index: 3;
+    border-radius: 10px;
+    padding: 20px 10px;
+    
+
+}
+.page4 .AboutTourLeader h3{
+    text-align: center;
+    color: #44594b;
+    margin-bottom: 20px;
+}
+.page4 .AboutTourLeader p{
+    line-height: 2;
+    /* text-align: justify; */
+}
+.page4 .i1{
+    float: right;
+    position: relative;
+    top: -350px;
+    right: 400px;
+    width: 400px;
+    z-index: 2;
+    box-shadow:150px -50px 0px #bb7a5d,150px 200px 0px #bb7a5d;
+    border-radius: 10px;
+}
+.page4 .i2{
+    float: left;
+    position: relative;
+    top: 80px; 
+    left: 100px;
+    width: 500px;
+    box-shadow: 100px -80px 0px #bb7a5d, -100px -80px 0px #bb7a5d;
+    z-index: 1;
+    border-radius: 10px;
+}
+.page5{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pics/px16.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.page5 .editp5{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#44594b , rgba(0, 0, 0, 0.202));
+    padding: 180px 150px ;
+
+}
+.page5 .editp5 .containerp5{
+    /* margin: 100px 0px 0px 100px; */
+    display: inline-block;
+
+}
+.page5 .editp5 .containerp5 div{
+    width: 460px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.302);
+    border-radius: 10px;;
+    margin-bottom: 15px;
+    color: rgba(240, 255, 255, 0.776);
+    /* display: inline-block; */
+    padding: 40px 20px;
+    text-align: justify;
+}
+.page5 .editp5 .containerp5 div h3{
+    display: inline;
+    color: ghostwhite;
+    /* margin-right: 20px; */
+}
+  .page5 .editp5 .containerp5 div p{
+    display: inline;
+    line-height: 1.5;
+    
+}
+
+.page5 .editp5 form{
+    float: right;
+    width: 450px;
+    height: 450px;
+    /* background-color: antiquewhite; */
+}
+.page5 .editp5 form div{
+    width: 100%;
+    height: 80px;
+
+}
+.page5 .editp5 form div input , .page5 .editp5 form div textarea{
+    border: none;
+    background-color: rgba(211, 211, 211, 0.502);
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 15px;
+
+}
+.page5 .editp5 form div label{
+    color: gray;
+    letter-spacing: 5px;
+}
+
+.page5 .editp5 form input[type="submit"]{
+    display: block;
+    border: none;
+    padding: 10px 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgba(7, 76, 88, 0.794);
+    color: white;
+    border-radius: 5px;
+    margin-top: 120px;
+}
+.page5 .editp5 form input#s1:hover{
+    cursor: pointer;
+    background-color: royalblue ;
+}
+/* .page5 .editp5 .backtotop a{
+    color: white;
+    text-decoration: none;
+} */
